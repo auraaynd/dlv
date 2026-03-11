@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Toko A - HaloMarket</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .menu-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .menu-list-container {
+            background: white;
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+        }
+
+        .menu-item {
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            border-bottom: 1px solid #f0f0f0;
+            gap: 20px;
+        }
+
+        .menu-item:last-child {
+            border-bottom: none;
+        }
+
+        .menu-thumb {
+            width: 80px;
+            height: 80px;
+            border-radius: 12px;
+            object-fit: cover;
+        }
+
+        .menu-info {
+            flex-grow: 1;
+        }
+
+        .menu-name {
+            font-size: 18px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .menu-price {
+            color: #2ecc71;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+
+        .back-btn {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #7f8c8d;
+            text-decoration: none;
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">Rudin Delivery</div>
+        <nav>
+            <a href="https://wa.me/6281368541870" class="wa-contact" target="_blank">
+                📞 Pesan via WA
+            </a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <a href="dlv.html" class="back-btn">← Kembali ke Beranda</a>
+
+        <div class="menu-header">
+            <h2>Daftar Menu Coffe Shop</h2>
+            <p>Pilih menu favoritmu dan pesan langsung ke WhatsApp!</p>
+        </div>
+
+        <div class="menu-list-container">
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=300&q=80"
+                    alt="Nasi Goreng" class="menu-thumb">
+                <div class="menu-info">
+                    <div class="menu-name">Matcha Latte</div>
+                    <p class="card-text">Minuman khas Jepang dengan rasa matcha yang lezat.</p>
+                    <div class="menu-price">Rp 12.000</div>
+                </div>
+                <a href="https://wa.me/6281368541870?text=Halo%20Toko%20A,%20saya%20mau%20pesan%20Nasi%20Goreng%20Spesial"
+                    class="btn-order">Pesan</a>
+            </div>
+
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=300&q=80"
+                    alt="Es Teh Manis" class="menu-thumb">
+                <div class="menu-info">
+                    <div class="menu-name">Latte</div>
+                    <p class="card-text">Expresso coffe + milk</p>
+                    <div class="menu-price">Rp 5.000</div>
+                </div>
+                <a href="https://wa.me/6281368541870?text=Halo%20Toko%20A,%20saya%20mau%20pesan%20Es%20Teh%20Manis"
+                    class="btn-order">Pesan</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
